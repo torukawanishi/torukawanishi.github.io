@@ -3,32 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    <title>研究者向けのウェブページ</title>
+    <title>Researcher's Website</title>
 </head>
 <body>
-    <header>
-        <h1>研究者の名前</h1>
-        <p>研究者の所属機関や役職など</p>
+    <header class="bg-primary text-white text-center py-5">
+        <h1 class="display-4">Researcher's Name</h1>
+        <p class="lead">Affiliation and Position</p>
     </header>
 
-    <section id="research-interests">
-        <h2>研究分野</h2>
-        <p>研究者の興味のある研究分野やトピックに関する簡単な説明。</p>
-    </section>
+    <div class="container my-5">
+        <section id="research-interests">
+            <h2 class="mb-4">Research Interests</h2>
+            <p class="lead">Brief description of the researcher's areas of interest and expertise.</p>
+        </section>
 
-    <section id="publications">
-        <h2>主な論文</h2>
-        <ul>
-            <li>論文1のタイトル</li>
-            <li>論文2のタイトル</li>
-            <li>論文3のタイトル</li>
-        </ul>
-    </section>
+        <section id="publications" class="mb-5">
+            <h2 class="mb-4">Key Publications</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Publication Title 1</li>
+                <li class="list-group-item">Publication Title 2</li>
+                <li class="list-group-item">Publication Title 3</li>
+            </ul>
+        </section>
+    </div>
 
-    <footer>
-        <p>&copy; 2023 研究者の名前</p>
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2023 Researcher's Name</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
