@@ -4,33 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
-    <title>Researcher's Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Stylish Researcher's Website</title>
 </head>
-<body>
-    <header class="bg-washi text-white text-center py-5">
-        <h1 class="display-4">Researcher's Name</h1>
-        <p class="lead">Affiliation and Position</p>
+<body class="bg-gray-100 font-sans">
+
+    <header class="bg-gradient-to-r from-teal-400 to-blue-500 text-white text-center py-5">
+        <img src="path/to/your/image.jpg" alt="Researcher's Image" class="h-24 w-24 rounded-full mb-4 mx-auto">
+        <h1 class="text-3xl font-bold">Researcher's Name</h1>
+        <p class="text-lg">Affiliation and Position</p>
     </header>
 
-    <div class="container my-5">
-        <section id="research-interests">
-            <h2 class="mb-4">Research Interests</h2>
-            <p class="lead">Brief description of the researcher's areas of interest and expertise.</p>
+    <div class="container mx-auto my-5 p-5 bg-white shadow-lg rounded-md">
+        <section id="research-interests" class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Research Interests</h2>
+            <p class="text-lg">Brief description of the researcher's areas of interest and expertise.</p>
         </section>
 
-        <section id="publications" class="mb-5">
-            <h2 class="mb-4">Key Publications</h2>
-            <ul class="list-group">
-                <li class="list-group-item">Publication Title 1</li>
-                <li class="list-group-item">Publication Title 2</li>
-                <li class="list-group-item">Publication Title 3</li>
+        <section id="publications">
+            <h2 class="text-2xl font-bold mb-4">Key Publications</h2>
+            <ul class="list-disc list-inside">
+                <li class="text-lg">Publication Title 1</li>
+                <li class="text-lg">Publication Title 2</li>
+                <li class="text-lg">Publication Title 3</li>
             </ul>
         </section>
     </div>
 
-    <footer class="bg-washi text-white text-center py-3">
+    <footer class="bg-gray-800 text-white text-center py-3">
         <p class="mb-0">&copy; 2023 Researcher's Name</p>
     </footer>
+
 </body>
 </html>
