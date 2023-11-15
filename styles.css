@@ -3,7 +3,10 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    font-family: 'Nunito', sans-serif;
+}
+
+body, html {
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -11,5 +14,5 @@ body {
 }
 
 .bg-gradient-to-r {
-    background: linear-gradient(to right, #4FD1C5, #4361EE);
+    background: linear-gradient(to bottom, #a0c4ff, #f9f9f9);
 }
