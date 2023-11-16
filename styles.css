@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', san-serif;
 }
 
 a {
@@ -16,5 +16,5 @@ a {
 }
 
 .bg-gradient-to-b {
-    background: linear-gradient(to bottom, #f3f4f6, #D1D5DB);
+    background: linear-gradient(to bottom, #f3f4f6, #E5E7EB);
 }
